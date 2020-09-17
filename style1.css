@@ -1,0 +1,102 @@
+body{
+    background-color: white;
+}
+.container{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width: 900px;
+    margin: 0 auto;   
+}
+
+.tip{
+    background-color: #def6ed;
+    padding: 25px;
+    border-radius: 4px;
+    border: 2px solid #def6ed;
+    
+}
+
+.header {
+    background-color: #c0baba;
+    padding: 20px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+    
+  /* Style the top navigation bar */
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+}
+    
+  /* Style the topnav links */
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+    
+  /* Change color on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+  
+  /* Change color on click */
+.topnav a:active {
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+.lijst_ingredienten{
+    margin-top: 40px;
+}
+.Bereidingswijze{
+    margin-top: 40px;
+}
+
+.tip{
+    margin-top: 40px;
+}
+
+
+.lijst_ingredienten li{
+    margin-top: 10px;
+}
+
+.Bereidingswijze li{
+    margin-top: 20px;
+}
+  
+#foto-header{
+    height: 100px;
+    width: 100px;
+    float: Right;
+    top: 20px;
+    right: 20px;
+    position: absolute;
+} 
+
+p { /*alle tekst*/
+    font-size: 20px;
+    line-height: 26px;
+}
+
+h1 { /*de hoofdtitel*/
+    font-size: 36px;
+    line-height: 36px;
+    border-bottom: 1px solid #ccc
+}
+
+h2 { /*eerste titel na de hoofdtitel*/
+    font-size: 24px;
+    line-height: 32px;
+}
+
+h3 { /*alle titels*/
+    font-size: 32px;
+    line-height: 32px;
+}
